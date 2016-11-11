@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Tahoma;
+	src: url(fonts/Tahoma.ttf);
+}
+/*хз чому не працює, розібратись*/
+@font-face {
+	font-family: Helvetica;
+	src: url(fonts/HelveticaNeueLTPro-ThEx.otf);
+}
+/*хз чому не працює, розібратись*/
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url(fonts/MyriadProRegular/MyriadProRegular.eot);
+	src: url(/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix)format("embedded-opentype"),
+	url(/fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),
+	url(/fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.my-flex-container{
+	display: flex;
+	flex-direction: row;
+}
+#joint-container {
+	width: 675px;
+	margin: auto 26% auto 26%;
+}
+
+header {
+	background: linear-gradient(to bottom, #769715, #99CC01);
+	height: 80px;
+	color: #FFFFFF;
+}
+#logo-type {
+	display: block;
+	padding: 27px 30px 28px 35px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+
+nav {
+	height: 77px;
+}
+.navigation
+li {
+	float: left;
+	display: block;
+}
+.navigation li a {
+	display: block;
+	height: 65px;
+	text-decoration: none;
+	padding: 0 36px;
+	line-height: 77px;
+}
+
+.welcome p{
+	margin: 20px 27px 5px 27px;
+}
+.welcome a img {
+	margin-left: 27px;
+}
+.lab {
+	font-weight: bold;
+}
+h1 {
+	font-family: Helvetica;
+	font-size: 32px;
+	color: #003200;
+	padding-top: 34px;
+}
+.flask {
+	background: #EEEEFB;
+	height: 191px;
+}
+
+.about-lab {
+	border-right: 1px solid #EFEFFC;
+	height: 211px;
+	margin: 27px 20px 27px 27px;
+	padding-top: 30px;
+	padding-right: 27px;
+}
+.about-lab h3 {
+	position: absolute;
+	bottom: 220px;
+}
+.about-lab p {
+	margin-bottom: 17px;
+}
+.section-post {
+	margin: 18px 22px 12px 4px;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 14px;
+	color: #003200;
+}
+.green-str {
+	display: block;
+	color: #80A60F;
+}
+h3 {
+	font-family: "MyriadProRegular";
+	color: #003200;
+	margin-top: 21px;
+	margin-bottom: 25px;
+}
+
+.reserchers-section {
+	border-bottom: 1px solid #EFEFFC;
+	width: 379px;
+}
+
+#copy-right {
+	font-family: Helvetica;
+	display: block;
+	border-top: 5px solid #EFEFFC;
+	padding: 27px 0px 30px 27px;
+	font-size: 10px;
+}

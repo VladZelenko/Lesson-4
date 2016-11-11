@@ -1,0 +1,38 @@
+article {
+	margin: auto 27% auto 28%;
+}
+.authors {
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-size: 22px;
+}
+#network {
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+.short-bottom-span {
+	text-decoration: underline;
+}
+.italics-bottom-span {
+	text-decoration: underline;
+	font-style: italic;
+}
+#turbo-image {
+	float: left;
+	margin: auto 10px -10px auto;
+	
+}
+.darknet-update {
+	font-style: italic;
+	font-weight: bold;
+}
+#central-sercers {
+	display: block;
+	text-align: right;
+	font-style: italic;
+}
+#mause {
+	text-align: center;
+}

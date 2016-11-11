@@ -1,0 +1,60 @@
+.top-block, fieldset {
+	margin: 15px;
+}
+.about-me {
+	font-weight: bold;
+	font-size: 26px;
+}
+.first-formSet li {
+	padding: 5px;
+}
+fieldset ul {
+	padding: 0px;
+}
+legend {
+	font-weight: bold;
+}
+li {
+	list-style: none;
+}
+input[type="text"] {
+	width: 250px;
+	border-radius: 2px;
+}
+.more-about-me {
+	margin-top: 0px;
+}
+.more-about-me input[type="text"], select#book {
+	width: 150px;
+}
+textarea {
+	margin-top: -15px;
+	margin-bottom: 15px;
+	width: 400px;
+	height: 150px;
+}
+select[name="position[]"] {
+	width: 150px;
+	height: 50px;
+}
+.list-head-name {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+	font-weight: bold;
+}
+input[type="email"] {
+	width: 250px;
+}
+.heppy-end {
+	margin-top: -15px;
+}
+.spam, .text-email{
+	margin-bottom: 0px;
+}
+.click-submit {
+	margin-left: 15px;
+}
+#equipments {
+	margin-top: 15px;
+}
